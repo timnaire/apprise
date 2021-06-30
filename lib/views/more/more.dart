@@ -33,11 +33,23 @@ class _MoreScreenState extends State<MoreScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [Text('More')],
               ),
-              SizedBox(height: 70.0),
+              SizedBox(height: 62.0), // 70.0
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.end,
-                children: [Text('Apprise')],
+                children: <Widget>[
+                  Center(
+                    child: Column(
+                      children: <Widget>[
+                        const Text('Apprise'),
+                        Text(
+                          'v1.0.0+1',
+                          style: TextStyle(fontSize: 8.0),
+                        )
+                      ],
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
