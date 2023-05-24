@@ -9,12 +9,11 @@ final darkColor = Color(0xFF202125);
 // Light Theme
 
 final appriseLightPrimary = Color(0xFF2196F3); // blue[500]
-final appriseLightPrimaryVariant = Color(0xFF0069c0); // blue[500] Dark Variant
+// final appriseLightPrimaryVariant = Color(0xFF0069c0); // blue[500] Dark Variant
 final appriseLightOnPrimary = Colors.white;
 
 final appriseLightSecondary = Color(0xFFF06292); // pink[300]
-final appriseLightSecondaryVariant =
-    Color(0xFFBA2D65); // pink[300] Dark Variant
+// final appriseLightSecondaryVariant =Color(0xFFBA2D65); // pink[300] Dark Variant
 final appriseLightOnSecondary = Colors.white;
 
 // final appriseLightBackground = Colors.white;
@@ -32,11 +31,11 @@ final appriseLightOnError = Colors.black;
 
 // final appriseDarkPrimary = Color(0xFF212121); // grey[900]
 final appriseDarkPrimary = Color(0xFF242529); // sample
-final appriseDarkPrimaryVariant = Color(0xFF212121);
+// final appriseDarkPrimaryVariant = Color(0xFF212121);
 final appriseDarkOnPrimary = Colors.white;
 
 final appriseDarkSecondary = Color(0xFF42A5F5); // blue[400]
-final appriseDarkSecondaryVariant = Color(0xff0077C2); // blue[400] Dark Variant
+// final appriseDarkSecondaryVariant = Color(0xff0077C2); // blue[400] Dark Variant
 final appriseDarkOnSecondary = Colors.white;
 
 final appriseDarkBackground = Color(0xFF212121); // grey[900]

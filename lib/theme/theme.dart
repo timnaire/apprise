@@ -40,7 +40,7 @@ class CustomTheme with ChangeNotifier {
         backgroundColor: colorScheme.primary,
         elevation: 0,
         iconTheme: IconThemeData(color: colorScheme.secondary),
-        brightness: colorScheme.brightness,
+        // brightness: colorScheme.brightness,
       ),
       tabBarTheme: TabBarTheme(
         labelColor: _isDarkTheme ? colorScheme.secondary : whiteColor,
@@ -81,10 +81,10 @@ class CustomTheme with ChangeNotifier {
 
   static ColorScheme lightColorScheme = ColorScheme(
     primary: appriseLightPrimary,
-    primaryVariant: appriseLightPrimaryVariant,
+    // primaryVariant: appriseLightPrimaryVariant,
     onPrimary: appriseLightOnPrimary,
     secondary: appriseLightSecondary,
-    secondaryVariant: appriseLightSecondaryVariant,
+    // secondaryVariant: appriseLightSecondaryVariant,
     onSecondary: appriseLightOnSecondary,
     background: appriseLightBackground,
     onBackground: appriseLightOnBackground,
@@ -97,10 +97,10 @@ class CustomTheme with ChangeNotifier {
 
   static ColorScheme darkColorScheme = ColorScheme(
     primary: appriseDarkPrimary,
-    primaryVariant: appriseDarkPrimaryVariant,
+    // primaryVariant: appriseDarkPrimaryVariant,
     onPrimary: appriseDarkOnPrimary,
     secondary: appriseDarkSecondary,
-    secondaryVariant: appriseDarkSecondaryVariant,
+    // secondaryVariant: appriseDarkSecondaryVariant,
     onSecondary: appriseDarkOnSecondary,
     background: appriseDarkBackground,
     onBackground: appriseDarkOnBackground,
